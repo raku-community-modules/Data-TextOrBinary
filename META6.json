@@ -1,13 +1,23 @@
 {
-    "perl"          : "6.*",
-    "name"          : "Data::TextOrBinary",
-    "version"       : "1.3",
-    "description"   : "Heuristic detection of text vs. binary data.",
-    "author"        : "Jonathan Worthington <jnthn@jnthn.net>",
-    "license"       : "Artistic-2.0",
-    "depends"       : [],
-    "provides"      : {
-		"Data::TextOrBinary" : "lib/Data/TextOrBinary.rakumod"
-    },
-    "source-url"    : "https://github.com/jnthn/p6-data-textorbinary.git"
+  "auth": "zef:raku-community-modules",
+  "author": "Jonathan Worthington <jnthn@jnthn.net>",
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Heuristic detection of text vs. binary data",
+  "license": "Artistic-2.0",
+  "name": "Data::TextOrBinary",
+  "perl": "6.c",
+  "provides": {
+    "Data::TextOrBinary": "lib/Data/TextOrBinary.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/jnthn/p6-data-textorbinary.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "1.3"
 }
