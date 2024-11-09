@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/lizmat/Data-TextOrBinary/actions/workflows/test.yml/badge.svg)](https://github.com/lizmat/Data-TextOrBinary/actions)
+[![Actions Status](https://github.com/raku-community-modules/Data-TextOrBinary/actions/workflows/linux.yml/badge.svg)](https://github.com/raku-community-modules/Data-TextOrBinary/actions) [![Actions Status](https://github.com/raku-community-modules/Data-TextOrBinary/actions/workflows/macos.yml/badge.svg)](https://github.com/raku-community-modules/Data-TextOrBinary/actions) [![Actions Status](https://github.com/raku-community-modules/Data-TextOrBinary/actions/workflows/windows.yml/badge.svg)](https://github.com/raku-community-modules/Data-TextOrBinary/actions)
 
 NAME
 ====
@@ -64,7 +64,7 @@ Jonathan Worthington
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2017 - 2024 Jonathan Worthington
+Copyright 2017 - 2022 Jonathan Worthington
 
 Copyright 2024 Raku Community
 

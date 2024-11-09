@@ -1,6 +1,6 @@
 {
   "auth": "zef:raku-community-modules",
-  "author": "Jonathan Worthington <jnthn@jnthn.net>",
+  "author": "Jonathan Worthington",
   "build-depends": [
   ],
   "depends": [
@@ -14,10 +14,12 @@
   },
   "resources": [
   ],
-  "source-url": "https://github.com/jnthn/p6-data-textorbinary.git",
+  "source-url": "https://github.com/raku-community-modules/Data-TextOrBinary.git",
   "tags": [
   ],
   "test-depends": [
+    "TEXT",
+    "BINARY"
   ],
   "version": "1.3"
 }
