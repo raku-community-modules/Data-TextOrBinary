@@ -1,4 +1,6 @@
 Revision history for Data-TextOrBinary
 
 {{$NEXT}}
+
+1.4  2024-11-09T20:33:33+01:00
     - Initial version as a Raku Community module
