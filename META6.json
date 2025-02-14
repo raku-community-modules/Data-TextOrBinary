@@ -16,10 +16,10 @@
   ],
   "source-url": "https://github.com/raku-community-modules/Data-TextOrBinary.git",
   "tags": [
-  ],
-  "test-depends": [
     "TEXT",
     "BINARY"
   ],
-  "version": "1.4"
+  "test-depends": [
+  ],
+  "version": "1.5"
 }

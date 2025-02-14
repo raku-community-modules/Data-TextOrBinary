@@ -2,5 +2,9 @@ Revision history for Data-TextOrBinary
 
 {{$NEXT}}
 
+1.5  2025-02-14T11:02:14+01:00
+    - Fix typo in META: test-depends -> tags
+    - Update copyright year
+
 1.4  2024-11-09T20:33:33+01:00
     - Initial version as a Raku Community module
