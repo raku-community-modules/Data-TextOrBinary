@@ -2,6 +2,11 @@ Revision history for Data-TextOrBinary
 
 {{$NEXT}}
 
+1.6  2026-11-21T10:32:15+01:00
+    - Fix CR at end of data read misjudge
+    - Modernize META and doc
+    - Update copyright year
+
 1.5  2025-02-14T11:02:14+01:00
     - Fix typo in META: test-depends -> tags
     - Update copyright year

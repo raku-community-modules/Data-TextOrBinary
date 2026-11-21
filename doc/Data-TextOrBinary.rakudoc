@@ -7,7 +7,6 @@ Data::TextOrBinary - Heuristic detection of text vs. binary data
 =head1 SYNOPSIS
 
 =begin code :lang<raku>
-
 use Data::TextOrBinary;
 
 # Test a Buf/Blob
@@ -17,7 +16,6 @@ say is-text(Buf.new(0x02, 0xFF, 0x00, 0x38));   # False
 # Test a file
 say is-text('/bin/bash'.IO);             # False
 say is-text('/usr/share/dict/words'.IO); # True
-
 =end code
 
 =head1 DESCRIPTION
@@ -35,9 +33,7 @@ in a file.
 =item On a Blob
 
 =begin code :lang<raku>
-
 my $text = is-text($the-blob, test-bytes => 8192);
-
 =end code
 
 When called on a C<Blob>, C<is-text> will test the first
@@ -48,9 +44,7 @@ and its default value is 4096.
 =item On an IO::Path
 
 =begin code :lang<raku>
-
 my $text = is-text($filename.IO, test-bytes => 8192);
-
 =end code
 
 When called on an C<IO::Path>, C<is-text> will read the first
@@ -81,7 +75,7 @@ Jonathan Worthington
 
 Copyright 2017 - 2022 Jonathan Worthington
 
-Copyright 2024, 2025 Raku Community
+Copyright 2024, 2025, 2026 Raku Community
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

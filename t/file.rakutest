@@ -1,7 +1,16 @@
+use v6.*;
 use Test;
 use Data::TextOrBinary;
 
 ok is-text('t/test-data/text'.IO), 'Text file correctly detected as text';
 nok is-text('t/test-data/binary'.IO), 'Binary file correctly detected as binary';
+
+# https://codeberg.org/lizmat/path-utils/issues/3
+{
+    my $io = $*PROGRAM.sibling(nano);
+    $io.spurt(("x" x 4095) ~ "\r");
+    ok is-text($io), "$io is a text file";
+    LEAVE .unlink with $io;
+}
 
 done-testing;

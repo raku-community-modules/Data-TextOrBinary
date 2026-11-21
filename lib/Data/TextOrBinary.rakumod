@@ -8,6 +8,10 @@ multi is-text(Blob $content, Int(Cool) :$test-bytes = 4096) is export {
     my int $limit = $content.elems min $test-bytes;
     my int $printable;
     my int $unprintable;
+
+    # Don't let a CR as the last byte ruin the result
+    --$limit if $limit;
+
     loop (my int $i = 0; $i < $limit; ++$i) {
         my uint $check = $content[$i];
         if $check {

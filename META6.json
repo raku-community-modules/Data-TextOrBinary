@@ -1,6 +1,8 @@
 {
   "auth": "zef:raku-community-modules",
-  "author": "Jonathan Worthington",
+  "authors": [
+    "Jonathan Worthington"
+  ],
   "build-depends": [
   ],
   "depends": [
@@ -8,18 +10,23 @@
   "description": "Heuristic detection of text vs. binary data",
   "license": "Artistic-2.0",
   "name": "Data::TextOrBinary",
-  "perl": "6.c",
   "provides": {
     "Data::TextOrBinary": "lib/Data/TextOrBinary.rakumod"
   },
+  "raku": "6.c",
   "resources": [
   ],
   "source-url": "https://github.com/raku-community-modules/Data-TextOrBinary.git",
+  "support": {
+    "bugtracker": "https://github.com/raku-community-modules/Data-TextOrBinary/issues",
+    "email": "community@raku.org",
+    "source": "https://github.com/raku-community-modules/Data-TextOrBinary.git"
+  },
   "tags": [
     "TEXT",
     "BINARY"
   ],
   "test-depends": [
   ],
-  "version": "1.5"
+  "version": "1.6"
 }
